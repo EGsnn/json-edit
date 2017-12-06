@@ -1,0 +1,82 @@
+{
+  "case" :{
+      "home":{
+        "list1":{
+          "title":"img路径问题",
+          "intro":"简介",
+          "img_url":"../../static/images/bc1.jpg",
+          "date":"时间",
+          "timer":"时间戳",
+          "text":"<p>文字</p><img src=\"../../static/images/banner_1.png\">"
+        },
+        "list2":{
+          "title":"标题92929912home",
+          "intro":"简介",
+          "img_url":"/static/img/bc1.jpg",
+          "date":"时间",
+          "timer":"时间戳",
+          "text":"<p>文字</p><img src='/static/img/bc1.jpg'>"
+        },
+        "list3":{
+          "title":"标题0000home",
+          "intro":"简介",
+          "img_url":"/static/img/bc1.jpg",
+          "date":"时间",
+          "timer":"时间戳",
+          "text":"<p>文字</p><img src='/static/img/bc1.jpg'>"
+        }
+      },
+    "company":{
+      "list1":{
+        "title":"标题12121company",
+        "intro":"简介",
+        "img_url":"/static/img/bc1.jpg",
+        "date":"时间",
+        "timer":"时间戳",
+        "text":"<p>文字</p><img src='/static/img/bc1.jpg'>"
+      },
+      "list2":{
+        "title":"标题92929912company",
+        "intro":"简介",
+        "img_url":"/static/img/bc1.jpg",
+        "date":"时间",
+        "timer":"时间戳",
+        "text":"<p>文字</p><img src='/static/img/bc1.jpg'>"
+      },
+      "list3":{
+        "title":"标题0000company",
+        "intro":"简介",
+        "img_url":"/static/img/bc1.jpg",
+        "date":"时间",
+        "timer":"时间戳",
+        "text":"<p>文字</p><img style='margin:0 auto;display:block' vm.src='/static/img/bc1.jpg'>"
+      }
+    },
+    "shop":{
+      "list1":{
+        "title":"标题12121shop",
+        "intro":"简介",
+        "img_url":"/static/img/bc1.jpg",
+        "date":"时间",
+        "timer":"时间戳",
+        "text":"<p>文字</p><img src='/static/img/bc1.jpg'>"
+      },
+      "list2":{
+        "title":"标题92929912shop",
+        "intro":"简介",
+        "img_url":"/static/img/bc1.jpg",
+        "date":"时间",
+        "timer":"时间戳",
+        "text":"<p>文字</p><img src='/static/img/bc1.jpg'>"
+      },
+      "list3":{
+        "title":"标题0000shop",
+        "intro":"简介",
+        "img_url":"/static/img/bc1.jpg",
+        "date":"时间",
+        "timer":"时间戳",
+        "text":"<p>文字</p><img src='/static/img/bc1.jpg'>"
+      }
+    }
+  }
+}

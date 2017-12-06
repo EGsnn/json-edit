@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/static/css/index.css">
+    <script src="/static/js/jquery.js"></script>
+    
+</head>
+<body>
+    <div class="topNav layout"> 
+        快速新增文本系统<button class="save">保存</button>
+    </div>  
+    <div class="main layout">
+        <div class="leftBox">
+            <div class="top ">
+                工程类别:
+                <select name="" id="sel_01">
+                </select>
+                
+                案例：
+                <select name="" id="sel_02">
+                </select>
+                <button class="newBtn">新增</button>
+                <button class="revampBtn">修改</button>
+                <button class="delBtn">删除</button>
+            </div>
+            <div class="imgBox clear">
+                图片预览
+                <select name="" id="sel_03">
+                </select>
+                <img class="previewImg" src="" alt="">
+                <p class="imgUrlText"></p>
+            </div>
+        </div>
+        <div class="rightBox">
+            <input name="title" class="title" placeholder="标题" type="text">
+            <input name="date" class="time" placeholder="日期xxxx-xx-xx" type="text" >
+            <input name="intro" class="intro" placeholder="简介" type="text">
+            <input name="img_url" class="img_url" placeholder="预览图片地址" type="text">
+        </div>
+        <div class="editorBox">
+            <p>正文：</p>
+            <div id="editor"></div>
+        </div>
+    </div>
+<script src="/static/js/wangEditor.min.js"></script>
+<script type="text/javascript">
+    var E = window.wangEditor
+    var editor = new E('#editor')
+    // 或者 var editor = new E( document.getElementById('#editor') )
+    editor.create()
+</script>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>
+
+

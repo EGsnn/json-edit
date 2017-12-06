@@ -1,0 +1,165 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,th,td{margin:0;padding:0;font-family:Microsoft YaHei,'ËÎÌå',Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;}
+html,body{width:100%;  font-family: '微软雅黑';  color:#333; /*overflow-x: hidden;*/}
+ul,ol,li{list-style:none}
+em{font-style:normal;}
+.fl{float:left;}
+.fr{float:right;}
+a,a:link{text-decoration:none;outline:none;color:#333;}
+.main-wrapper{position:relative;}
+img{border:none;}
+.layout{width:1000px;margin:0 auto;}
+
+/*topNav*/
+.topNav {
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #030000;
+    cursor: pointer;
+}
+.save {
+    float: right;
+    height: 28px;
+    line-height: 26px;
+    margin-top: 13px;
+    width: 90px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    background-color: #5bc0de;
+    border: 1px solid #46b8da;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.save:hover{
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+/*topNav end*/
+
+/*main*/
+/*  leftBox*/
+    .leftBox {
+        width: 220px;
+        padding: 15px;
+        float: left;
+        min-height: 615px;
+        background: #ddd
+    }
+    .leftBox .top{
+        height: 214px;
+    }
+    .leftBox select {
+        height: 28px;
+        line-height: 28px;
+        width: 200px;
+        border: 1px #ccc solid;
+        color: #555;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+    #sel_01 ,
+    #sel_02 {
+        margin-bottom: 20px;
+        margin-top: 5px;
+        background: #fff;
+    }
+    #sel_01[disabled=disabled],
+    #sel_02[disabled=disabled]{
+        cursor:  not-allowed;
+        background: #ccc;
+    }
+    .leftBox button {
+        width: 97px;
+        height: 28px;
+        text-align: center;
+        line-height: 28px;
+        padding: 0;
+        color: #555;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+    } 
+    button:hover {
+        color: #333;
+        background-color: #e6e6e6;
+        border-color: #adadad;
+    }
+    .delBtn {
+        margin-top: 10px;
+    }
+    .leftBox .imgBox{
+        margin-top: 50px;
+        min-height: 100px;
+    }
+    .leftBox .imgBox img{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .leftBox .imgUrlText {
+        font-size: 12px;
+    }
+/*  leftBox end*/
+/*  rightBox*/
+    .rightBox {
+        float: right;
+        width: 700px;
+        background: #ddd;
+        height: 200px;
+        padding: 15px;
+    }
+    .rightBox input{ 
+        border: none;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        height: 32px;
+    }
+    .rightBox .title{
+        width: 500px;
+        height: 38px;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 38px;
+        text-align: center;
+        margin: 15px auto 20px;
+        display: block;
+    }
+    .rightBox .time {
+        width: 150px;
+        float: right;
+        margin-right: 100px;
+        padding-left: 10px;
+    }
+    .rightBox .intro ,
+    .rightBox .img_url {
+        width: 250px;
+        padding-left: 10px;
+        margin-left: 100px;
+    }
+    .rightBox .img_url {
+        margin-top: 10px;
+    }
+    .editorBox{
+        margin: 20px auto 0;
+        background: #ddd;
+        float: right;
+        width: 700px;
+        padding: 20px 15px;
+    }
+    .editorBox #editor{
+        background: #fff
+    }
+/*  rightBox end*/
+/*main end*/
